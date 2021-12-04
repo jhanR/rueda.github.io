@@ -1,0 +1,50 @@
+- HTML
+
+<! DOCTYPE html >
+<html lang="es"> 
+    <cabeza>
+        <meta charset="utf-8">
+        <meta nombre='viewport' content='width=device-width, initial-scale=1'>
+        <título>Reproductor de música< /título>
+        <link rel="hoja de estilo" media="pantalla" href="índice.css" />
+        <link rel="hoja de estilo" media="pantalla" href="https://user.fontawesome.com/release/v5.8.1/css/all.min.css" />
+        <link rel="hoja de estilo" media="pantalla" href="scripts.css" />
+    </cabeza>
+    <cuerpo>
+    <clase div ="contenedor">
+        <div class="jugador">
+            <clase div ="player__controls">
+        <clase h5 ="player__title">titulo</h5>
+      </div>
+      
+      <clase div ="player__album">
+        <img src="IMAGEN DE PORTADA (CUADRADA)"Album Cover" class="player__img" loading="lazy" />
+      </div>
+ 
+      <h2 class="player__artist">nombre del album</h2>
+      <clase h3 ="player__song">cantante/autor</h3>
+ 
+      < input type="range" value="20" min="0" class="player__level" id="range" />
+
+      <clase div ="audio-duración">
+        <div class="start">00:00</div>
+        <div class="end">00:00</div>
+      </div>
+ 
+      <clase deaudio ="player__audio" identificador de controles ="audio">
+        <fuente src="link de la musica" type="audio/mpeg" />
+      </audio>
+
+
+        <div class="player__btn player__btn--medium blue play" id="play">
+          <i class="fas fa-play play-btn"></i> 
+          <i class="fas fa-pause pause-btn hide"></i>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+    </cuerpo>
+</html>
